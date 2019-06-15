@@ -10,6 +10,7 @@
 | Abstract factory          |               |
 
 # Patrones estructurales
+
 | Patrón                    | Descripción   |
 |---------------------------|---------------|
 | Composite                 |               |
