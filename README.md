@@ -1,2 +1,1 @@
-Patrones de diseño
-------------------
+# Patrones de diseño en Golang
