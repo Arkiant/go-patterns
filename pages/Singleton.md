@@ -23,4 +23,4 @@ Como guía general, consideramos el uso del patrón Singleton cuando se aplica l
 
 ## Implementación
 
-[Ejemplo](./../examples/Singleton/singleton_test.go)
+[Ejemplo](./../examples/Singleton/)
