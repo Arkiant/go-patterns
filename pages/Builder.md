@@ -15,5 +15,5 @@ Un patrón de diseño Builder intenta:
 
 ## Implementación
 
-[Ejemplo](./examples/Builder)
+[Ejemplo](./../examples/Builder)
 
