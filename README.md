@@ -4,7 +4,7 @@
 | Patrón                    | Descripción                                                                   |
 |---------------------------|-------------------------------------------------------------------------------|
 | [Singleton](./pages/Singleton.md)                 | Tener una única instancia de un tipo en todo el programa                      |
-| Builder                   | Reutilizar un algoritmo para crear muchas implementaciones de una interfaz    |
+| [Builder](./pages/Builder.md)                   | Reutilizar un algoritmo para crear muchas implementaciones de una interfaz    |
 | Factory                   |               |
 | Prototype                 |               |
 | Abstract factory          |               |
