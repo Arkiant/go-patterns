@@ -5,7 +5,7 @@
 |---------------------------|-------------------------------------------------------------------------------|
 | [Singleton](./pages/Singleton.md)                 | Tener una única instancia de un tipo en todo el programa                      |
 | [Builder](./pages/Builder.md)                   | Reutilizar un algoritmo para crear muchas implementaciones de una interfaz    |
-| [Factory](./pages/Factory.md)                   | Delegar la creación de diferentes tipos               |
+| [Factory](./pages/Factory.md)                   | Delegar la creación de diferentes tipos de objetos              |
 | Prototype                 |               |
 | Abstract factory          |               |
 
