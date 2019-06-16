@@ -20,3 +20,7 @@ Como guía general, consideramos el uso del patrón Singleton cuando se aplica l
 
 - Necesitamos un valor único, compartido, de algún tipo particular
 - Necesitamos restringir la creación de objetos de algún tipo a una sola unidad a lo largo de todo el programa
+
+## Implementación
+
+[Ejemplo](./../examples/Singleton/singleton_test.go)
