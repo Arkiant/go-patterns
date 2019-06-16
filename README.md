@@ -1,10 +1,10 @@
 
 # Patrones de creación
 
-| Patrón                    | Descripción   |
-|---------------------------|---------------|
-| Singleton                 |               |
-| Builder                   |               |
+| Patrón                    | Descripción                                                                   |
+|---------------------------|-------------------------------------------------------------------------------|
+| [Singleton](./Singleton.md)                 | Tener una única instancia de un tipo en todo el programa                      |
+| Builder                   | Reutilizar un algoritmo para crear muchas implementaciones de una interfaz    |
 | Factory                   |               |
 | Prototype                 |               |
 | Abstract factory          |               |
