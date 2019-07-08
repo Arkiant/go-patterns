@@ -48,3 +48,4 @@
 
 # Fuentes
 https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o
+https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o
