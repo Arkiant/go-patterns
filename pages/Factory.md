@@ -17,3 +17,5 @@ Con el método Factory, delegamos la creación de familias de objetos a un paque
 - Agrupación de familias de objetos para obtener un creador de objetos de familia
 
 ## Implementación
+
+[Ejemplo](./../examples/Factory/)
