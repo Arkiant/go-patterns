@@ -7,7 +7,7 @@
 | [Builder](./pages/Builder.md)                   | Reutilizar un algoritmo para crear muchas implementaciones de una interfaz    |
 | [Factory](./pages/Factory.md)                   | Delegar la creación de diferentes tipos de objetos              |
 | Prototype                 |               |
-| [Abstract factory](./pages/AbstractFactory.md)          | Agrupa objetos complejos en familias y los abstrae utilizando sus interfaces, la idea es tener grandes fábricas que pueden ser intercambiables y así puedan crecer mas facilmente              |
+| [Abstract factory](./pages/AbstractFactory.md)          | Proporciona una interface para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.|
 
 # Patrones estructurales
 
