@@ -11,7 +11,9 @@ Además, hemos visto las diferencias al abordar el mismo problema con dos soluci
 
 ## Objetivos
 Agrupar familias de objetos relacionados es muy conveniente cuando su número de objeto está creciendo tanto que crear un punto único para obtenerlos todos parece la única manera de obtener la flexibilidad de la creación de objetos en tiempo de ejecución. Los siguientes objetivos del método Abstract Factory deben ser claros para usted:
+    
     - Proporcionar una nueva capa de encapsulación para los métodos Factory que devuelven una interfaz común para todas las fábricas. 
+    
     - Agrupar fábricas comunes en una super Fábrica (también llamada fábrica de fábricas)
 
 ## Implementación
