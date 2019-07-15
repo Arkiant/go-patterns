@@ -1,4 +1,4 @@
-# Abstract Factory
+# Prototype
 
 ## Descripción
 
