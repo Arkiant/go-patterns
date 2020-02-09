@@ -42,8 +42,7 @@
 | Barrier                   |               |
 | Future                    |               |
 | Pipeline                  |               |
-| Workers                   |               |
-| Pool                      |               |
+| Workers / Pool            |               |
 | Publisher / Subscriber    |               |
 
 # Fuentes
