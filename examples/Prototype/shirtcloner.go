@@ -46,7 +46,7 @@ func (s *shirtsCache) GetClone(color int) (ItemInfoGetter, error) {
 		newItem := *blackPrototype
 		return &newItem, nil
 	case Blue:
-		newItem := *blackPrototype
+		newItem := *bluePrototype
 		return &newItem, nil
 	default:
 		return nil, errors.New("Shirt model not recognized")
