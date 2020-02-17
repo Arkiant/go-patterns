@@ -10,9 +10,9 @@ type PaymentMethod interface {
 }
 
 const (
-	Cash = iota
-	DebitCard
-	Other
+	CASH = iota
+	DEBITCARD
+	OTHER
 )
 
 type Payment struct {
@@ -26,9 +26,9 @@ func NewPayment(paymentType int) Payment {
 func (p Payment) GetPaymentMethod() (PaymentMethod, error) {
 
 	switch p.paymentType {
-	case Cash:
+	case CASH:
 		return new(CashPM), nil
-	case DebitCard:
+	case DEBITCARD:
 		return new(DebitCardPM), nil
 	default:
 		return nil, errors.New(fmt.Sprintf("Payment method: %d not recognized\n", p.paymentType))

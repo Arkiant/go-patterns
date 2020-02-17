@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetPaymentMethodCash(t *testing.T) {
-	payment := NewPayment(Cash)
+	payment := NewPayment(CASH)
 	paymentMethod, err := payment.GetPaymentMethod()
 	if err != nil {
 		t.Fatal("A payment method of type 'Cash' must exists")
@@ -20,7 +20,7 @@ func TestGetPaymentMethodCash(t *testing.T) {
 }
 
 func TestGetPaymentMethodDebitCard(t *testing.T) {
-	payment := NewPayment(DebitCard)
+	payment := NewPayment(DEBITCARD)
 	paymentMethod, err := payment.GetPaymentMethod()
 	if err != nil {
 		t.Fatal("A payment method of type 'DebitCard' must exists")
@@ -34,7 +34,7 @@ func TestGetPaymentMethodDebitCard(t *testing.T) {
 }
 
 func TestGetPaymentMethodNonExistent(t *testing.T) {
-	payment := NewPayment(Other)
+	payment := NewPayment(OTHER)
 	_, err := payment.GetPaymentMethod()
 	if err == nil {
 		t.Errorf("A payment method with ID 20 must return an error")
