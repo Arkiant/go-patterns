@@ -6,8 +6,8 @@
 | [Singleton](./pages/Singleton.md)                 | Tener una única instancia de un tipo en todo el programa                      |
 | [Builder](./pages/Builder.md)                   | Reutilizar un algoritmo para crear muchas implementaciones de una interfaz    |
 | [Factory](./pages/Factory.md)                   | Delegar la creación de diferentes tipos de objetos              |
-| [Prototype](./pages/Prototype.md)                 | Usa una instancia ya creada de algún tipo para clonarla y completarla con las necesidades particulares de cada contexto              |
 | [Abstract factory](./pages/AbstractFactory.md)          | Proporciona una interface para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.|
+| [Prototype](./pages/Prototype.md)                 | Usa una instancia ya creada de algún tipo para clonarla y completarla con las necesidades particulares de cada contexto              |
 
 # Patrones estructurales
 
