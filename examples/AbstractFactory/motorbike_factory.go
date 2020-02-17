@@ -6,17 +6,17 @@ import (
 )
 
 const (
-	SportMotorbikeType  = 1
-	CruiseMotorbikeType = 2
+	SPORT = iota
+	CRUISE
 )
 
 type MotorBikeFactory struct{}
 
 func (m *MotorBikeFactory) Build(v int) (Vehicle, error) {
 	switch v {
-	case SportMotorbikeType:
+	case SPORT:
 		return new(SportMotorbike), nil
-	case CruiseMotorbikeType:
+	case CRUISE:
 		return new(CruiseMotorbike), nil
 	default:
 		return nil, errors.New(fmt.Sprintf("Vehicle of type %d not recognized\n", v))

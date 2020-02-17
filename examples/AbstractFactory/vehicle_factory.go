@@ -10,15 +10,15 @@ type VehicleFactory interface {
 }
 
 const (
-	CarFactoryType       = 1
-	MotorbikeFactoryType = 2
+	CAR = iota
+	MOTORBIKE
 )
 
 func BuildFactory(f int) (VehicleFactory, error) {
 	switch f {
-	case CarFactoryType:
+	case CAR:
 		return new(CarFactory), nil
-	case MotorbikeFactoryType:
+	case MOTORBIKE:
 		return new(MotorBikeFactory), nil
 	default:
 		return nil, errors.New(fmt.Sprintf("Factory with id %d not recognized\n", f))

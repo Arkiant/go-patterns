@@ -11,5 +11,5 @@ func (s *SportMotorbike) NumSeats() int {
 }
 
 func (s *SportMotorbike) GetMotorbikeType() int {
-	return SportMotorbikeType
+	return SPORT
 }
