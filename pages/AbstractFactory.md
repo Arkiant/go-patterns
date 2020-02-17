@@ -16,7 +16,7 @@ Lo primero que sugiere el patrón Abstract Factory es declarar explícitamente l
 
 El siguiente paso es declarar la Abstract Factory, una interfaz con una lista de métodos de creación para todos los productos que forman parte de la familia de productos, en el ejemplo el método Build hace esta función. Estos métodos deben devolver los tipos de productos abstractos representados por las interfaces que hemos extraído anteriormente: Car y Motorbike sucesivamente.
 
-Ahora, ¿qué hay de las variantes del producto? Para cada variante de una familia de productos, creamos una estructura Fabric separada basada en la interfaz VehicleFactory. Una fábrica es una clase que devuelve productos de un tipo particular. Por ejemplo, la Fábrica de Motos sólo puede crear objetos de Motos de carretera o deportivas.
+Ahora, ¿qué hay de las variantes del producto? Para cada variante de una familia de productos, creamos una estructura Fabric separada basada en la interfaz VehicleFactory. Una fábrica es una estructura que devuelve productos de un tipo particular. Por ejemplo, la Fábrica de Motos sólo puede crear objetos de Motos de carretera o deportivas.
 
 El código del cliente tiene que trabajar con ambas fábricas y productos a través de sus respectivas interfaces abstractas. Esto permite cambiar el tipo de fábrica que se pasa al código de cliente, así como la variante de producto que recibe el código de cliente, sin romper el código de cliente real.
 
@@ -30,7 +30,7 @@ Agrupar familias de objetos relacionados es muy conveniente cuando su número de
 
 ## ❔ Cuando aplicarlo
 
--  Utilice el patrón Abstract Factory cuando su código necesite trabajar con varias familias de productos relacionados, pero no quiere que dependa de las clases concretas de esos productos, ya que podrían ser desconocidas de antemano o simplemente quiere permitir una futura extensibilidad.
+-  Utilice el patrón Abstract Factory cuando su código necesite trabajar con varias familias de productos relacionados, pero no quiere que dependa de las estrcuturas concretas de esos productos, ya que podrían ser desconocidas de antemano o simplemente quiere permitir una futura extensibilidad.
 
 ## 👥 Relación con otros patrones
 

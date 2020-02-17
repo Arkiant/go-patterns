@@ -37,7 +37,7 @@ Un patrón de diseño Builder intenta:
 
 - El patrón Builder se centra en construir objetos complejos paso a paso. Abstract Factory se especializa en crear familias de objetos relacionados. Abstract Factory devuelve el objeto inmediatamente, mientras que Builder le permite ejecutar algunos pasos de construcción adicionales antes de generar el objeto.
 
-- Puedes combinar el patrón Builder con el patrón Bridge: la clase de director juega el papel de la abstracción, mientras que los diferentes constructores actúan como implementaciones.
+- Puedes combinar el patrón Builder con el patrón Bridge: la estructura de director juega el papel de la abstracción, mientras que los diferentes constructores actúan como implementaciones.
 
 
 ## ⚡️Implementación

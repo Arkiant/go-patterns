@@ -10,7 +10,7 @@ Con el método Factory, delegamos la creación de objetos a un paquete u objeto 
 
 ## 💥 Problema
 
-Imagina queremos crear una aplicación de ecommerce. En la primera versión de la App tenemos un único método de pago que es en cash, por lo que los programadores creamos una entidad llamada CashPayment la cual contiene el método pay que realiza toda la funcionalidad a la hora de pagar. Como el negocio va bien, nuestros stakeholders nos comentan que en el mercado esta muy demandado el pago con tarjeta y que probablemente en un futuro queramos poder pagar con paypal, como el código está altamente acoplado a la clase CashPayment para añadir el pago con tarjeta deberíamos duplicar toda la lógica común en ambos sitios.
+Imagina queremos crear una aplicación de ecommerce. En la primera versión de la App tenemos un único método de pago que es en cash, por lo que los programadores creamos una entidad llamada CashPayment la cual contiene el método pay que realiza toda la funcionalidad a la hora de pagar. Como el negocio va bien, nuestros stakeholders nos comentan que en el mercado esta muy demandado el pago con tarjeta y que probablemente en un futuro queramos poder pagar con paypal, como el código está altamente acoplado a la estructura CashPayment para añadir el pago con tarjeta deberíamos duplicar toda la lógica común en ambos sitios.
 
 ## ✔️ Solución
 
