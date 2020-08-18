@@ -12,7 +12,7 @@
 
 | Patrón    | Descripción                                                                                                                                  |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Composite | Proporciona una manera de construir objetos complejos a partir de objetos mas simples                                                        |
+| Composite | Proporciona una manera de construir objetos complejos a partir de objetos mas simples, en Go, es lo más parecido a herencia que tenemos      |
 | Adapter   | Permite adaptar dos interfaces incompatibles entre sí                                                                                        |
 | Bridge    | Permite separar el comportamiento de la representación, permite combinar comportamientos con representaciones                                |
 | Proxy     | Tiene como propósito proporcionar un intermediario de un objeto para controlar su acceso                                                     |
