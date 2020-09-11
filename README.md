@@ -1,4 +1,6 @@
-# Patrones de creación
+# Patrones de diseño
+
+## Patrones de creación
 
 | Patrón                                                  | Descripción                                                                                                                                              |
 | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -8,7 +10,7 @@
 | [Abstract factory](./pages/patterns/AbstractFactory.md) | Proporciona una interface para crear familias de objetos relacionados o dependientes sin especificar sus estructuras concretas.                          |
 | [Prototype](./pages/patterns/Prototype.md)              | Usa una instancia ya creada de algún tipo para clonarla y completarla con las necesidades particulares de cada contexto                                  |
 
-# Patrones estructurales
+## Patrones estructurales
 
 | Patrón    | Descripción                                                                                                                                  |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,7 +22,7 @@
 | Decorator | Proporciona una manera de añadir responsabilidad a un objeto dinámicamente sin afectar el comportamiento original                            |
 | Flyweight | También conocido como caché, proporciona un modo de compartir memoria entre partes comunes de objetos para así mejorar el uso de memoria ram |
 
-# Patrones de comportamiento
+## Patrones de comportamiento
 
 | Patrón                  | Descripción                                                                                                                                                                                                                                                     |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,7 +37,7 @@
 | Observer                | Nos permite notificar a varios objetos de cualquier evento que sucede y al que dichos objetos están subscritos.                                                                                                                                                 |
 | Strategy                | Permite definir una familia de algoritmos, poner cada uno de ellos en una clase separada, y hacer que sus objetos sean intercambiables.                                                                                                                         |
 
-# Patrones de concurrencia
+## Patrones de concurrencia
 
 | Patrón                 | Descripción                                                                                                                                                                                                                              |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
