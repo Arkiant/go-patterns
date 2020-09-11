@@ -1,12 +1,12 @@
 # Patrones de creación
 
-| Patrón                                         | Descripción                                                                                                                                              |
-| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Singleton](./pages/Singleton.md)              | Tener una única instancia de un tipo en todo el programa                                                                                                 |
-| [Builder](./pages/Builder.md)                  | Permite separar la construcción de un objeto de su representación con el fin de que el mismo proceso de creación pueda crear diferentes representaciones |
-| [Factory](./pages/Factory.md)                  | Delegar la creación de tipos específicos                                                                                                                 |
-| [Abstract factory](./pages/AbstractFactory.md) | Proporciona una interface para crear familias de objetos relacionados o dependientes sin especificar sus estructuras concretas.                          |
-| [Prototype](./pages/Prototype.md)              | Usa una instancia ya creada de algún tipo para clonarla y completarla con las necesidades particulares de cada contexto                                  |
+| Patrón                                                  | Descripción                                                                                                                                              |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Singleton](./pages/patterns/Singleton.md)              | Tener una única instancia de un tipo en todo el programa                                                                                                 |
+| [Builder](./pages/patterns/Builder.md)                  | Permite separar la construcción de un objeto de su representación con el fin de que el mismo proceso de creación pueda crear diferentes representaciones |
+| [Factory](./pages/patterns/Factory.md)                  | Delegar la creación de tipos específicos                                                                                                                 |
+| [Abstract factory](./pages/patterns/AbstractFactory.md) | Proporciona una interface para crear familias de objetos relacionados o dependientes sin especificar sus estructuras concretas.                          |
+| [Prototype](./pages/patterns/Prototype.md)              | Usa una instancia ya creada de algún tipo para clonarla y completarla con las necesidades particulares de cada contexto                                  |
 
 # Patrones estructurales
 

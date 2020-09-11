@@ -2,7 +2,7 @@
 
 ## 📖 Descripción
 
-El patrón de diseño Abstract Factory es una nueva capa de agrupamiento para conseguir un objeto compuesto más grande (y más complejo), que se utiliza a través de sus interfaces. La idea detrás de agrupar objetos en familias y agrupar familias es tener grandes fábricas que puedan ser intercambiables y puedan crecer más fácilmente. En las primeras etapas de desarrollo, también es más fácil trabajar con fábricas y fábricas abstractas que esperar hasta que todas las implementaciones concretas estén hechas para comenzar su código. 
+El patrón de diseño Abstract Factory es una nueva capa de agrupamiento para conseguir un objeto compuesto más grande (y más complejo), que se utiliza a través de sus interfaces. La idea detrás de agrupar objetos en familias y agrupar familias es tener grandes fábricas que puedan ser intercambiables y puedan crecer más fácilmente. En las primeras etapas de desarrollo, también es más fácil trabajar con fábricas y fábricas abstractas que esperar hasta que todas las implementaciones concretas estén hechas para comenzar su código.
 
 Este patrón se utiliza comúnmente en muchas aplicaciones y bibliotecas, como las bibliotecas GUI multiplataforma. Piense en un botón, un objeto genérico y una fábrica de botones que le proporciona una fábrica para botones de Microsoft Windows mientras que tiene otra fábrica para botones de Mac OS X. No quieres ocuparte de los detalles de implementación de cada plataforma, sino que sólo quieres implementar las acciones para algún comportamiento específico planteado por un botón.
 
@@ -23,14 +23,14 @@ El código del cliente tiene que trabajar con ambas fábricas y productos a trav
 ## 🚩 Objetivos
 
 Agrupar familias de objetos relacionados es muy conveniente cuando su número de objeto está creciendo tanto que crear un punto único para obtenerlos todos parece la única manera de obtener la flexibilidad de la creación de objetos en tiempo de ejecución. Los siguientes objetivos del método Abstract Factory deben ser claros para usted:
-    
-- Proporcionar una nueva capa de encapsulación para los métodos Factory que devuelven una interfaz común para todas las fábricas. 
+
+- Proporcionar una nueva capa de encapsulación para los métodos Factory que devuelven una interfaz común para todas las fábricas.
 
 - Agrupar fábricas comunes en una super Fábrica (también llamada fábrica de fábricas)
 
 ## ❔ Cuando aplicarlo
 
--  Utilice el patrón Abstract Factory cuando su código necesite trabajar con varias familias de productos relacionados, pero no quiere que dependa de las estrcuturas concretas de esos productos, ya que podrían ser desconocidas de antemano o simplemente quiere permitir una futura extensibilidad.
+- Utilice el patrón Abstract Factory cuando su código necesite trabajar con varias familias de productos relacionados, pero no quiere que dependa de las estrcuturas concretas de esos productos, ya que podrían ser desconocidas de antemano o simplemente quiere permitir una futura extensibilidad.
 
 ## 👥 Relación con otros patrones
 
@@ -38,4 +38,4 @@ Agrupar familias de objetos relacionados es muy conveniente cuando su número de
 
 ## ⚡️Implementación
 
-[Ejemplo](./../examples/AbstractFactory/)
+[Ejemplo](./examples/AbstractFactory/)

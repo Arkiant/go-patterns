@@ -6,15 +6,13 @@ El objetivo del patrón Prototype es tener un objeto o conjunto de objetos que y
 
 ## 💥 Problema
 
-
-
 ## ✔️ Solución
 
 ## 🚩 Objetivos
 
-El objetivo principal del patrón de diseño Prototype es evitar la creación repetitiva de objetos. Imagine un objeto por defecto compuesto de docenas de campos y tipos incrustados. No queremos escribir todo lo que necesita este tipo cada vez que usamos el objeto, especialmente si podemos estropearlo creando instancias con diferentes fundamentos: 
-    
-- Mantener un conjunto de objetos que serán clonados para crear nuevas instancias 
+El objetivo principal del patrón de diseño Prototype es evitar la creación repetitiva de objetos. Imagine un objeto por defecto compuesto de docenas de campos y tipos incrustados. No queremos escribir todo lo que necesita este tipo cada vez que usamos el objeto, especialmente si podemos estropearlo creando instancias con diferentes fundamentos:
+
+- Mantener un conjunto de objetos que serán clonados para crear nuevas instancias
 
 - Proporcionar un valor por defecto de algún tipo para empezar a trabajar sobre él.
 
@@ -26,4 +24,4 @@ El objetivo principal del patrón de diseño Prototype es evitar la creación re
 
 ## ⚡️Implementación
 
-[Ejemplo](./../examples/Prototype/)
+[Ejemplo](./examples/Prototype/)

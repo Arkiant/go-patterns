@@ -8,14 +8,13 @@ El patrón Builder nos ayuda a construir objetos complejos sin instanciar direct
 
 Imagina un objeto que podría tener docenas de campos que son estructuras más complejas y anidadas. Tal código de inicialización suele estar encapsulado dentro de un constructor monstruoso con muchos parámetros. O peor aún utilizando estructuras para cada caso, por ejemplo imaginemos que queremos construir un coche o una moto, una solución podría ser crear estructuras para cada uno con sus constructores, pero es que la mayoría de propiedades serían las mismas.
 
-
 ## ✔️ Solución
 
-La solucióm a este problema es utilizar el patrón Builder que nos aconseja extraer la construcción del objeto en una estructura separada que será la encargada de construir el objeto (Builder) y una estructura que será la encargada de dirigir la construcción (Director). El patrón organiza la creación del objeto en diferentes pasos por lo que no necesitamos tener un mega constructor. La parte mas importante es que no necesitas llamar a todos los pasos para generar el objeto. 
+La solucióm a este problema es utilizar el patrón Builder que nos aconseja extraer la construcción del objeto en una estructura separada que será la encargada de construir el objeto (Builder) y una estructura que será la encargada de dirigir la construcción (Director). El patrón organiza la creación del objeto en diferentes pasos por lo que no necesitamos tener un mega constructor. La parte mas importante es que no necesitas llamar a todos los pasos para generar el objeto.
 
 ## 🚩 Objetivos
 
-Un patrón de diseño Builder intenta: 
+Un patrón de diseño Builder intenta:
 
 - Crear un objeto paso a paso rellenando sus campos y creando los objetos incrustados
 
@@ -39,8 +38,6 @@ Un patrón de diseño Builder intenta:
 
 - Puedes combinar el patrón Builder con el patrón Bridge: la estructura de director juega el papel de la abstracción, mientras que los diferentes constructores actúan como implementaciones.
 
-
 ## ⚡️Implementación
 
-[Ejemplo](./../examples/Builder/)
-
+[Ejemplo](./examples/Builder/)
