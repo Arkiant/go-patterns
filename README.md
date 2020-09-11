@@ -1,4 +1,4 @@
-# Patrones de diseño
+# :hammer: Patrones de diseño
 
 ## Patrones de creación
 
@@ -47,7 +47,7 @@
 | Workers / Pool         | Las goroutines son ligeras, pero el trabajo que realizan puede ser muy pesado. Wokers/pool nos ayuda a resolver este problema, limitando la cantidad de Goroutines disponibles y así controlar los recursos de una manera mas exhaustiva |
 | Publisher / Subscriber | Este patrón permite separar generadores de eventos (Publishers) de los que lo usan (Suscribers), con este patrón podríamos crear funcionalidades como hot reload de configuraciones, etc.                                                |
 
-# Arquitecturas y paradigmas
+# :roller_coaster: Arquitecturas y paradigmas
 
 | Nombre                                          | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -57,3 +57,11 @@
 | Microservice Architecture                       | Esta arquitectura de software se basa en separar cada unidad lógica de negocio en un microservicio. Una de las principales ventajas es que se pueden escalar por separado aunque su mayor desventaja es que añade complejidad accidental y una difícil monitorización                                                                                                                                                                                                                                                                                                                                                                |
 | Service Oriented Architecture                   | La orientación a servicios es una forma de pensar en servicios, su construcción y sus resultados. Un servicio es una representación lógica de una actividad de negocio que tiene un resultado de negocio específico. Los microservicios son una interpretación moderna de la arquitectura orientada a servicios usada para construir sistemas distribuidos. Los servicios en una arquitectura de microservicios son procesos que se comunican con otros a través de una red para conseguir el objetivo final. Estos servicios pueden usar protocolos simples (típicamente HTTP con REST o mensajería liviana como RabbitMQ o ZeroMQ) |
 | Serverless Architecture                         | Este tipo de arquitectura usa backend de terceros como servicio (BaaS), utilizan funciones como servicio (FaaS). Esta arquitectura elimina la necesidad de crear un backend.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+# :mount_fuji: Antipatrones
+
+:construction: - WORK IN PROGRESS
+
+# :spaghetti: Refactoring
+
+:construction: - WORK IN PROGRESS
