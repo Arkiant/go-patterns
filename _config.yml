@@ -1,3 +1,5 @@
 theme: jekyll-theme-time-machine
 title: Patrones de diseño en Golang
 show_downloads: false
+plugins:
+  - jemoji
