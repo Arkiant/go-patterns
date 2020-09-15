@@ -59,11 +59,11 @@ Iré actualizando a menudo el repositorio con todas las notas que tengo guardada
 
 ## Patrones de gestión de multiples contenedores en un solo nodo
 
-| Patrón     | Descripción |
-| ---------- | ----------- |
-| Sidecar    |             |
-| Ambassador |             |
-| Adapter    |             |
+| Patrón     | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sidecar    | Este patrón extiende un contenedor con otro contenedor, por ejemplo el contenedor principal puede ser un servidor web y podría ser emparejado con un contenedor que guarde logs.                                                                                                                                                                                                                                            |
+| Ambassador | Este patrón hace de proxy hacia el contenedor principal, por ejemplo, un desarrollador podría emparejar una aplicación que este enviando datos por el protocolo de memcache, el contenedor abassador lo que haría es escuchar y podría estar enviando estos datos a un cluster por ejemplo de shard de memcache sin que el contenedor principal lo sepa, dicho contenedor solo sabría que esta enviando datos en localhost. |
+| Adapter    | Este patrón es parecido al Abassador pero con la diferencia de que la aplicación expone una interfaz para poder conectar ambos contenedores mediante interfaces. Por ejemplo los adaptadores que aseguran que todos los contenedores en un sistema tienen la misma interfaz de monitorización.                                                                                                                              |
 
 ## Patrones de múltiples nodos
 
