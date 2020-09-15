@@ -1,6 +1,6 @@
 # :wave: Introducción
 
-Este repositorio me sirve para guardar todo el conocimiento sobre patrones, arquitecturas, antipatrones, refactoring y cosas avanzadas. Decidí crear el repositorio opensource para poder reunir en un solo lugar todo el conocimiento que voy adquiriendo en mi carrera profesional sobre Go y compartirlo con todo el mundo en español.
+Este repositorio me sirve para guardar todo el conocimiento sobre patrones, arquitecturas, antipatrones, refactoring y cosas avanzadas. Decidí crear el repositorio opensource para poder reunir en un solo lugar todo el conocimiento que voy adquiriendo en mi carrera profesional sobre Go, arquitectura, sistemas distribuídos, y compartirlo con todo el mundo en español.
 
 Cualquiera es bienvenido a aportar sus conocmientos y de esa manera podamos aprovechar y aprender todos, incluído yo.
 
