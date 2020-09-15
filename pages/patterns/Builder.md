@@ -1,5 +1,7 @@
 # Builder
 
+---
+
 ## 📖 Descripción
 
 El patrón Builder nos ayuda a construir objetos complejos sin instanciar directamente su estructura, ni escribir la lógica que requieren.

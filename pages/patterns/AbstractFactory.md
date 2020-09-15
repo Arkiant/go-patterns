@@ -1,5 +1,7 @@
 # Abstract Factory
 
+---
+
 ## 📖 Descripción
 
 El patrón de diseño Abstract Factory es una nueva capa de agrupamiento para conseguir un objeto compuesto más grande (y más complejo), que se utiliza a través de sus interfaces. La idea detrás de agrupar objetos en familias y agrupar familias es tener grandes fábricas que puedan ser intercambiables y puedan crecer más fácilmente. En las primeras etapas de desarrollo, también es más fácil trabajar con fábricas y fábricas abstractas que esperar hasta que todas las implementaciones concretas estén hechas para comenzar su código.

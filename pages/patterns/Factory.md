@@ -1,5 +1,7 @@
 # Factory
 
+---
+
 ## 📖 Descripción
 
 El propósito del patrón Factory Method (o simplemente Factory) es abstraer al usuario del conocimiento de la estructura que necesita lograr para un propósito específico, como la recuperación de algún valor, tal vez de un servicio web o una base de datos. El usuario sólo necesita una interfaz que le proporcione este valor. Al delegar esta decisión a una Fábrica, esta Fábrica puede proporcionar una interfaz que se ajuste a las necesidades del usuario. También facilita el proceso de degradación o mejora de la implementación del tipo subyacente si es necesario

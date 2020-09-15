@@ -1,5 +1,7 @@
 # Singleton
 
+---
+
 ## 📖 Descripción
 
 El patrón Singleton es fácil de recordar. Como su nombre indica, le proporcionará una única instancia de un objeto y le garantizará que no hay duplicados.
