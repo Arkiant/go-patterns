@@ -67,11 +67,11 @@ Iré actualizando a menudo el repositorio con todas las notas que tengo guardada
 
 ## Patrones de múltiples nodos
 
-| Patrón          | Descripción |
-| --------------- | ----------- |
-| Leader election |             |
-| Work queue      |             |
-| Scatter/Gather  |             |
+| Patrón          | Descripción                                                                                                                                                                                    |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Leader election | Este patrón consiste en tener un contenedor como líder dentro de un conjunto de replicas, de ese modo si el lider se cae, mediante este patrón elegiríamos al nuevo líder.                     |
+| Work queue      | Este patrón consiste en encadenar multiples contenedores uniendo la salida de uno con la entrada de otro para encadenarlos y poder reutilizar sus funcionalidades cuando sea necesario         |
+| Scatter/Gather  | En ese sistema, un cliente externo envía una solicitud inicial a un nodo "raíz" o "padre". Esta raíz envía la solicitud a un gran número de servidores para realizar los cálculos en paralelo. |
 
 # :roller_coaster: Arquitecturas y paradigmas
 
