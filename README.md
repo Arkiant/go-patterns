@@ -55,6 +55,24 @@ Iré actualizando a menudo el repositorio con todas las notas que tengo guardada
 | Workers / Pool         | Las goroutines son ligeras, pero el trabajo que realizan puede ser muy pesado. Wokers/pool nos ayuda a resolver este problema, limitando la cantidad de Goroutines disponibles y así controlar los recursos de una manera mas exhaustiva |
 | Publisher / Subscriber | Este patrón permite separar generadores de eventos (Publishers) de los que lo usan (Suscribers), con este patrón podríamos crear funcionalidades como hot reload de configuraciones, etc.                                                |
 
+# Patrones de sistemas distribuidos
+
+## Patrones de gestión de multiples contenedores en un solo nodo
+
+| Patrón     | Descripción |
+| ---------- | ----------- |
+| Sidecar    |             |
+| Ambassador |             |
+| Adapter    |             |
+
+## Patrones de múltiples nodos
+
+| Patrón          | Descripción |
+| --------------- | ----------- |
+| Leader election |             |
+| Work queue      |             |
+| Scatter/Gather  |             |
+
 # :roller_coaster: Arquitecturas y paradigmas
 
 | Nombre                                          | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
